@@ -5,7 +5,7 @@ function Header() {
     return (
         <>
 
-           <div className='font-bold px-6 text-white w-4 '>
+           <div className='font-bold px-6 text-white  '>
               <h1>Home</h1>
             </div>
                 

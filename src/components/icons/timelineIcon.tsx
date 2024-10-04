@@ -1,6 +1,9 @@
 function TimeLineIcon() {
     return (
-      <img src="public/Timeline-icon.png" alt="icon de header" />
+      <div className="mr-5">
+        <img src="/Timeline-icon.png" alt="icon de header" />
+      </div>
+      
   )
   }
   

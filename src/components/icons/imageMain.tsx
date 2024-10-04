@@ -1,6 +1,6 @@
 function ImageMain() {
     return (
-      <img src="public/image hand plain.png" alt="icon explore" />
+      <img src="/image hand plain.png" alt="icon explore" />
   )
   }
   

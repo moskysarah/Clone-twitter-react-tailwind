@@ -17,8 +17,8 @@ function Main() {
 
     return (
 
-        <div className='border border-gray-900 border border-t-0 items-center  h-full '>
-            <div className='flex  justify-between  border border-gray-900 border border-t-0'>
+        <div className='border border-gray-900  border border-t-0 items-center  h-full '>
+            <div className='flex  justify-between   border border-gray-900 border border-t-0 border-l-0 border-r-0 '>
                  < Header/>
                  < TimeLineIcon/>
             </div>
@@ -47,9 +47,10 @@ function Main() {
                   < TweetBody />
 
                   < TwitterImg />
+
+                 
                   
-                  
-          </div>
+        </div>
 
 
        

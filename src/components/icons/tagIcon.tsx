@@ -1,6 +1,6 @@
 function TagIcon() {
     return (
-      <img src="public/tag-icon.png" alt="icon de tague" />
+      <img src="/tag-icon.png" alt="icon de tague" />
   )
   }
   

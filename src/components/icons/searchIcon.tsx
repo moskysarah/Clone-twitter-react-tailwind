@@ -1,6 +1,6 @@
 function SearchIcon() {
     return (
-      <img src="public/Group-icon.png" alt="icon bookmarks" />
+      <img src="/Group-icon.png" alt="icon bookmarks" />
   )
   }
   

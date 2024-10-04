@@ -16,7 +16,7 @@ function NavMenu() {
 
         <nav className="bg-black text-white  w-64 ">
           
-             < img src="public/twitter-icon.png"  
+             < img src="/twitter-icon.png"  
                  alt="Logo" />
          
             <ul className="flex flex-col">

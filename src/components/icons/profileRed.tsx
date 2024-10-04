@@ -9,7 +9,7 @@ function TweetProfile() {
     return (
         <div className=' mt-6  flex  '>
             <div className="px-2 py-2    border border-t-0 border-l-0 border-r-0   border-gray-800 ">
-              <img src="public/profile-red.png"
+              <img src="/profile-red.png"
                    alt="profile red" 
               />
                     
@@ -22,9 +22,9 @@ function TweetProfile() {
                 <p>"major breakthrough" that would serve to both strengthen the US steel </p> 
                 <p>industry and combat the global climate crisis.</p> 
               <div className='mt-6 flex justify-start gap-16 '>
-                 <ReplyIcon/><span className='text-gray-500'>57</span> 
-                 <RetweetIcon/><span className='text-gray-500'>144</span> 
-                 <ReactIcon/> <span className='text-gray-500'>184</span>  
+                 <ReplyIcon/>
+                 <RetweetIcon/>
+                 <ReactIcon/>  
                  <ShareIcon/> 
                  
                  

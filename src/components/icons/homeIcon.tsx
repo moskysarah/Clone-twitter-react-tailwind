@@ -1,6 +1,6 @@
 function HomeIcon() {
     return (
-      <img src="public/home-icon.png" 
+      <img src="/home-icon.png" 
 
      
       alt="icon home" 

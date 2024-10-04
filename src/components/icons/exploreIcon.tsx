@@ -1,6 +1,6 @@
 function ExploreIcon() {
     return (
-      <img src="public/Search-icon.png" alt="icon explore" />
+      <img src="/Search-icon.png" alt="icon explore" />
   )
   }
   

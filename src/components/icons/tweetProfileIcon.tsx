@@ -1,6 +1,6 @@
 function TweetProfileIcon() {
   return (
-    <img src="public/Tweet-Profile-Photo.png" alt="icon profile" />
+    <img src="/Tweet-Profile-Photo.png" alt="icon profile" />
 )
 }
 

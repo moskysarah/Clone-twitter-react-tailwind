@@ -1,12 +1,12 @@
+import SeetingIcon from "../icons/SeetingIcon";
 
-
-function TrendsList() {
+function TwitterPage() {
 
     return (
       <div className="  bg-gray-900 mt-10 text-white ml-2">
         
          <span className="flex ">
-           # SQUID   
+            Trends For you < SeetingIcon/>
           
           </span>
 
@@ -15,4 +15,4 @@ function TrendsList() {
   );
 };
 
-export default TrendsList;
+export default TwitterPage;

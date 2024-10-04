@@ -1,6 +1,6 @@
 function MediaIcon() {
     return (
-      <img src="public/Media.png"
+      <img src="/Media.png"
           
           className="hover:scale-110 hover:shadow-lg  hover:bg-gray" 
 

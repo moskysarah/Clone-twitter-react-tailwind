@@ -9,7 +9,7 @@ function profileTweet() {
     return (
         <div className=' mt-6  flex  '>
             <div className="px-2 py-2    border border-t-0 border-l-0 border-r-0   border-gray-800 ">
-              <img src="public/Tweet-Profile-Photo.png"
+              <img src="/Tweet-Profile-Photo.png"
                    alt="profile twitter" 
               />
                     

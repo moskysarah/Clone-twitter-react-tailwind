@@ -1,7 +1,7 @@
 function VectorIcon() {
     return (
       <div className='mr-4 '>
-         <img src="public/Vector.png"
+         <img src="/Vector.png"
              alt="icon vector" 
          />
         </div>
