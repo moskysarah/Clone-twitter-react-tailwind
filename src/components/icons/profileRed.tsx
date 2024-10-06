@@ -2,8 +2,9 @@
 import TweetTitle from '../tweetTitle/tweetTitle'
 import RetweetIcon from '../icons/retweetIcon'
 import ShareIcon from '../icons/shareIcon'
-import ReplyIcon from '../icons/replyIcon'
-import ReactIcon from '../icons/reactIcon'
+import TwitterLikeButton from '../Button/twitterLikeButton'
+
+
 
 function TweetProfile() {
     return (
@@ -22,9 +23,9 @@ function TweetProfile() {
                 <p>"major breakthrough" that would serve to both strengthen the US steel </p> 
                 <p>industry and combat the global climate crisis.</p> 
               <div className='mt-6 flex justify-start gap-16 '>
-                 <ReplyIcon/>
+                 
                  <RetweetIcon/>
-                 <ReactIcon/>  
+                 <TwitterLikeButton/>  
                  <ShareIcon/> 
                  
                  

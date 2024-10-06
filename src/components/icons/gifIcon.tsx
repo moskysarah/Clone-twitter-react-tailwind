@@ -1,4 +1,4 @@
-function GifIcon() {
+function GiftIcon() {
     return (
       <img src="/Gif.png" 
          
@@ -9,5 +9,5 @@ function GifIcon() {
   )
   }
   
-  export default GifIcon
+  export default GiftIcon
 

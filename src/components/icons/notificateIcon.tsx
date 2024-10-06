@@ -1,6 +1,6 @@
-function MoreIcon () {
+function NotificateIcon () {
     return (
         <img src="/notification-icon.png" alt="icon de notification" />
         )
 }
-export default MoreIcon
+export default NotificateIcon

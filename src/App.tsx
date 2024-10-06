@@ -1,19 +1,20 @@
 
-import NavMenu from './components/nav/navMenu';
-import SectionInput from './components/sectionInput/sectionInput'
-import TrendingLists from './components/trends/trendingLists';                                         
-function App() {
+import React from 'react';
 
-  return (
-   <div className='flex'>
-      <NavMenu />
-      <SectionInput/>
-      <TrendingLists/>
-      
-   </div>
-    
-    
-  )
-}
+import Home from './Pages/Home';
+
+;
+
+
+
+const App: React.FC = () => {
+    return (
+        <div className="bg-black text-white min-h-screen">
+            
+            <Home/>
+           
+        </div>
+    );
+};
 
 export default App;

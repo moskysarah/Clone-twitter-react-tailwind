@@ -1,10 +1,10 @@
-function TweetProfileIcon() {
+function TwitterProfileIcon() {
   return (
     <img src="/Tweet-Profile-Photo.png" alt="icon profile" />
 )
 }
 
-export default TweetProfileIcon
+export default TwitterProfileIcon
 
 
 
