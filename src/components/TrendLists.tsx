@@ -33,7 +33,7 @@ const TrendLists: React.FC = () => {
         <div className="flex flex-col  bg-black border-l-2 border-gray-800 text-white p-2 w-1/3  ">
               <SearchBar/>
             <div className="flex flex-col  bg-gray-800 text-gray-400 p-4 w-1/1 mt-6 h-screen rounded-3xl">
-                <h2 className="text-lg font-bold text-white flex ">Trends for you <SeetingIcon/></h2>
+                <h2 className="text-xl font-bold text-white flex ">Trends for you <SeetingIcon/></h2>
                 <ul className=" text-lg pl-3 mt-6 ">
                     {trends.map((trends, index) => (
                         <React.Fragment key={index}>
