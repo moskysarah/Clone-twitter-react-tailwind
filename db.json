@@ -1,0 +1,200 @@
+export const DB = [
+  {
+    "userId": 1,
+    "username": "Tim Cook",
+    "name": "Tim Cook",
+    "bio": "Apple company is very happy to share a new experience with her customers",
+    "profilePicture": "https://www.iphon.fr/app/uploads/2024/01/tim-cook-apple.jpg",
+    "followersCount": 1200,
+    "followingCount": 800,
+    "tweets": [
+      {
+        "tweetId": 1,
+        "content": "Very happy to show you this new iphone Don't miss that! It's available at all Apple stores with a good price.",
+        "createdAt": "20 Oct",
+        "likes": 150,
+        "retweets": 30,
+        "comments": 10,
+        "numberShare": 5,
+        "image": "https://www.silicon.co.uk/wp-content/uploads/2024/09/Apples-iPhone-16.-Image-credit-Apple-02-684x513.jpg"
+      },
+      {
+        "tweetId": 2,
+        "content": "Just finished reading a great book on cloud computing. The future is all about scalability and efficiency. #CloudComputing #TechTrends",
+        "createdAt": "19 Mar",
+        "likes": 80,
+        "retweets": 20,
+        "comments": 5,
+        "numberShare": 2,
+        "image": ""
+      },
+      {
+        "tweetId": 3,
+        "content": "Coffee is the coder's fuel! Starting my day with a double shot and a fresh perspective. What’s your go-to morning routine? #CoffeeLovers #MorningRoutine",
+        "createdAt": "20 Dec 2023",
+        "likes": 200,
+        "retweets": 50,
+        "comments": 15,
+        "numberShare": 10,
+        "image": "https://images.stockcake.com/public/b/5/0/b50dfc21-64bf-492e-9ab5-7e6eda1f5478/coding-coffee-break-stockcake.jpg"
+      },
+      {
+        "tweetId": 4,
+        "content": "Exploring the latest trends in AI. It’s fascinating how quickly things are evolving in this space. #ArtificialIntelligence #MachineLearning",
+        "createdAt": "40m",
+        "likes": 110,
+        "retweets": 40,
+        "comments": 12,
+        "numberShare": 8,
+        "image": ""
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "username": "Micheal B Jordan",
+    "name": "Micheal B Jordan",
+    "bio": "Yo bro what'up! We took too much time to cook this new movie and now we can't wait to push it out. Be ready, stay turned!",
+    "profilePicture": "https://cdn-a.prisma.de/cdn/img/default/4192/41917101_44de56a8a06e4b498ed23d320b8bf1ed_480re0.jpg",
+    "followersCount": 250,
+    "followingCount": 180,
+    "tweets": [
+      {
+        "tweetId": 1,
+        "content": "We have cooked a new movie Fahrenheit 451",
+        "createdAt": "7h",
+        "likes": 25,
+        "retweets": 10,
+        "comments": 5,
+        "image": "https://www.magazine-hd.com/apps/wp/wp-content/uploads/2018/06/fahrenheit_451_shannon_jordan.jpg",
+        "numberShare": 0
+      },
+      {
+        "tweetId": 2,
+        "content": "Yo bro what'up! We took too much time to cook this new movie and now we can't wait to push it out. Be ready, stay turned!",
+        "createdAt": "29 Sep",
+        "likes": 30,
+        "retweets": 5,
+        "comments": 2,
+        "numberShare": 0,
+        "image": ""
+      },
+      {
+        "tweetId": 3,
+        "content": "Just finished a great book on JavaScript! Highly recommend. 📚 #BookLover",
+        "createdAt": "10h",
+        "likes": 18,
+        "retweets": 3,
+        "comments": 1,
+        "numberShare": 0,
+        "image": ""
+      }
+    ]
+  },
+  {
+    "userId": 3,
+    "username": "Scott Disick",
+    "name": "Scott Disick",
+    "bio": "Lost too much time with champagne, pretty tonight I'll better work now!",
+    "profilePicture": "https://imgix.bustle.com/rehost/2016/9/13/98d54bee-ae08-4908-8b51-58a64b7514f8.jpg?w=800",
+    "followersCount": 300,
+    "followingCount": 150,
+    "tweets": [
+      {
+        "tweetId": 1,
+        "content": "Lost too much time with champagne, pretty tonight I'll better work now!",
+        "createdAt": "29 Sep",
+        "likes": 45,
+        "retweets": 15,
+        "comments": 7,
+        "numberShare": 0,
+        "image": "https://content.api.news/v3/images/bin/df063236d915bef6de47eb7473678eb6?width=1024"
+      },
+      {
+        "tweetId": 2,
+        "content": "Exploring new digital marketing trends for 2024! #Marketing",
+        "createdAt": "27 Sep",
+        "likes": 28,
+        "retweets": 4,
+        "comments": 3,
+        "image": ""
+      }
+    ]
+  },
+  {
+    "userId": 4,
+    "username": "Elon Musk",
+    "name": "Elon Musk",
+    "bio": "Writer and storyteller. Sharing thoughts on literature and life.",
+    "profilePicture": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1229892983-square.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
+    "followersCount": 200,
+    "followingCount": 100,
+    "tweets": [
+      {
+        "tweetId": 1,
+        "content": "New Tesla of Robot very close to human being like a friend, Optimus is here!",
+        "createdAt": "10 Oct",
+        "likes": "200",
+        "retweets": 5,
+        "comments": 3,
+        "image": "https://p.turbosquid.com/ts-thumb/pn/tETekB/Dg/tbrender_001/png/1629901005/1920x1080/fit_q99/fbddb7d2bc57a9dec3d3f3eb58139761eb6e62fc/tbrender_001.jpg"
+      },
+      {
+        "tweetId": 2,
+        "content": "We found out the best way to be helped with humanoids.",
+        "createdAt": "12 Oct",
+        "likes": 15,
+        "retweets": 2,
+        "comments": 1,
+        "image": ""
+      },
+      {
+        "tweetId": 3,
+        "content": "Let us be thankful for the fools. But for them, the rest of us could not succeed. #Wisdom",
+        "createdAt": "21 Jun",
+        "likes": 10,
+        "retweets": 1,
+        "comments": 0,
+        "image": ""
+      }
+    ]
+  },
+  {
+    "userId": 5,
+    "username": "Jeff Bezos",
+    "name": "Jeff Bezos",
+    "bio": "The same place of success!",
+    "profilePicture": "https://cdn.futura-sciences.com/cdn-cgi/image/width=1520,quality=60,format=auto/sources/images/Jeff%20bezos.jpg",
+    "followersCount": 450,
+    "followingCount": 300,
+    "tweets": [
+      {
+        "tweetId": 1,
+        "content": "The rules of success are easy: just stay focused, know where you're going, what you're doing, and who you are.",
+        "createdAt": "30 Sep",
+        "likes": 60,
+        "retweets": 20,
+        "comments": 10,
+        "image": "https://www.andmeetings.com/wp-content/uploads/2024/07/AmazonBuilding.gif"
+      },
+      {
+        "tweetId": 2,
+        "content": "Howdy! Amazon is now open with a new library. Learn more about the details.",
+        "createdAt": "7 Sep",
+        "likes": 50,
+        "retweets": 15,
+        "comments": 8,
+        "image": ""
+      },
+      {
+        "tweetId": 3,
+        "content": "Amazon is coming closer!",
+        "createdAt": "2h",
+        "likes": 40,
+        "retweets": 12,
+        "comments": 4,
+        "image": ""
+      }
+    ]
+  }
+]

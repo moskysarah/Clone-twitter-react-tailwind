@@ -1,9 +1,9 @@
-import React from "react";
 
-
-import Sidebar from "../components/sidebar/sidebar"
 import BarTrending from "../components/BarTrending/barTrending";
 import Main from "../components/Tweet/mainPage";
+import Sidebar from "../components/Sidebar/sidebar";
+import HomeTweets from "../components/Tweet/tweets";
+
 
 function Home() {
   return (
@@ -11,6 +11,7 @@ function Home() {
         <Sidebar />
         <Main />
         <BarTrending />
+        <HomeTweets />
       </div>
   )
 }

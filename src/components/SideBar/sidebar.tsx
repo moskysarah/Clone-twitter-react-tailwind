@@ -3,7 +3,6 @@ import Button from "../Button/button";
 import SidebarItem from "./sidebarItem";
 import Icon from "../icon/icons";
 import { DB } from "../../database";
-import React from 'react';
 
 
 function Sidebar({}) {

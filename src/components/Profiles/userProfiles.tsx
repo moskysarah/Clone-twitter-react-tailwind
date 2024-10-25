@@ -3,12 +3,10 @@ import { Link, useParams, Outlet, useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import Button from "../Button/button";
 import { User } from "./type";
-import React from 'react';
-
 import Icon from "../icon/icons";
 import Tweets from "../Tweet/tweet";
-import { TweetType } from "../tweet/type";
-import TableItem from "../tweet/tableTweets";
+import { TweetType } from "../Tweet/type";
+import TableItem from "../Tweet/tableTweets";
 import { DB } from "../../database";
 
 const PageUsers = () => {
@@ -66,7 +64,7 @@ const PageUsers = () => {
       <div className="relative">
         <img
           className="w-full h-48 object-cover"
-          src={user.coverImage || "/image_twitter/backgroundImg.png"}
+          src={user.coverImage || "/images  twitter/backgroundImg.png"}
           alt="Cover"
         />
         <img
