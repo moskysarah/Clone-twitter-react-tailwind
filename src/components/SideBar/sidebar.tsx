@@ -5,7 +5,7 @@ import Icon from "../icon/icons";
 import { DB } from "../../database";
 
 
-function Sidebar({}) {
+function Sidebar() {
   const loggedUserId = 1;
   const navigate = useNavigate();
   const user = DB.find((user) => user.userId === loggedUserId)

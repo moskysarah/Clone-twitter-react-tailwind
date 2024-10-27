@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export interface TweetProps {
   avatar: string,
+  name :string,
   username: string,
   handle: string,
   time: string,
@@ -12,7 +13,8 @@ export interface TweetProps {
   numberLike: number,
   numberComment: number,
   numberRetweet: number,
-  numberShare?: number
+  numberShare?: number,
+  tweet:string
 }
 
 const Tweet = ({ avatar, username, handle, time, content, image, numberLike, numberComment, numberRetweet, numberShare }: TweetProps) => {

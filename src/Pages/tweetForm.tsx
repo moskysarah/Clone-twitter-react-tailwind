@@ -13,14 +13,15 @@ const TweetForm: React.FC = () => {
     try {
       await api.post('/tweets', {
         ...data,
-        author: 'CurrentUser', // À remplacer par l'utilisateur actuel
+        author: 'CurrentUser', 
         createdAt: new Date().toISOString(),
       });
       reset();
-      // Vous pouvez ajouter ici une logique pour mettre à jour la liste des tweets
+      
     } catch (error) {
       console.error('Erreur de tweet, error');
     }
+    
   };
 
   return (

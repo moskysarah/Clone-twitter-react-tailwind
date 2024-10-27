@@ -1,10 +1,9 @@
-import { TweetType } from "../type";
-
+import { TweetType } from "../types";
 
 export interface User {
   userId: number;
+  name:string;
   username: string;
-  name: string;
   profilePicture: string;
   bio: string;
   followersCount: number;

@@ -3,7 +3,6 @@ import Button from "../Button/button";
 import Tweet, { TweetProps } from "./tweet";
 import Icon from "../icon/icons";
 import axios from "axios";
-
 import { useForm } from "react-hook-form";
 import { TweetType } from "./type";
 import { User } from "../Profiles/type";
@@ -31,7 +30,7 @@ function Main() {
         const response = await axios.get('http://localhost:3000/tweets');
         const users = response.data;
 
-        const tweetsData = users.flatMap((user:User ) =>
+        const tweetsData = users.flatMap((user: User) =>
           user.tweets.map(tweet => ({
             avatar: user.profilePicture,
             username: user.username,
@@ -49,7 +48,7 @@ function Main() {
         setTweets(tweetsData);
         setLoggedUser(users[0]);
       } catch (error) {
-        console.error("vous avez connue une Erreur lors de la récupération des données :", error);
+        console.error("Erreur lors de la récupération des données :", error);
       }
     };
 
@@ -68,7 +67,7 @@ function Main() {
 
     const formData = new FormData();
     formData.append("file", tweetImage);
-    formData.append("upload_preset", "dtpw00be5");
+    formData.append("upload_preset", "z1fgxln5");
 
     const response = await fetch(
       "https://api.cloudinary.com/v1_1/diieivx1l/image/upload",
@@ -104,7 +103,6 @@ function Main() {
     setTweetContent("");
     setTweetImage(null);
     setUploadedImageUrl(null);
-  
   };
 
   return (
@@ -138,7 +136,7 @@ function Main() {
             <div className="h-10 flex justify-center items-center">
               <div className="flex gap-5 pl-16">
                 <label htmlFor="fileInput" style={{ cursor: "pointer" }}>
-                  <img src="/image_twitter/imageIcon.png" alt="" />
+                  <img src="/images twitter/imageIcon.png" alt="" />
                   <input
                     id="fileInput"
                     type="file"
@@ -146,10 +144,10 @@ function Main() {
                     onChange={handleImageChange}
                   />
                 </label>
-                <img src="/image_twitter/Group.png" alt="" />
-                <img src="/image_twitter/Group.svg" alt="" />
-                <img src="/image_twitter/vectorList.svg" alt="" />
-                <img src="/image_twitter/groupSec.svg" alt="" />
+                <img src="/images  twitter/Group.png" alt="icon " />
+                <img src="/images  twitter/Group.svg" alt="icon" />
+                <img src="/images  twitter/vectorList.svg" alt="icon" />
+                <img src="/images  twitter/groupSec.svg" alt="icon" />
               </div>
             </div>
             <div>

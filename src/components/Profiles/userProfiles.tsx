@@ -18,10 +18,11 @@ const PageUsers = () => {
 
   useEffect(() => {
     const fetchUserData = () => {
-      const foundUser = DB.find((user) => user.username === username);
-      if (foundUser) {
-        setUser(foundUser);
-        setUserTweets(foundUser.tweets);
+      const userData = DB.find((user) => user.username === username);
+      if (userData) {
+        setUser(userData);
+        setUserTweets(userTweets);
+      
       }
     };
 
@@ -100,7 +101,7 @@ const PageUsers = () => {
             {user.website}
           </a>
         )}
-        <p className="text-sm text-gray-500">Joined February 2023</p>
+        <p className="text-sm text-gray-500">Joined December 2022</p>
         <div className="flex gap-4">
           <div className="flex gap-1">
             <p className="text-sm font-bold">{user.followersCount}</p>
@@ -169,6 +170,7 @@ const PageUsers = () => {
             <div key={Tweet.tweetId} className="mb-4">
               <Tweets
                 avatar={user.profilePicture}
+                name ={user.name}
                 username={user.username}
                 handle={user.name}
                 time={Tweet.createdAt}
