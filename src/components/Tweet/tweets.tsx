@@ -14,7 +14,7 @@ const HomeTweets: React.FC = () => {
         const response = await api.get('/tweets');
         setTweets(response.data);
         setIsLoading(false);
-      } catch (err) {
+      } catch (error) {
         setError('Erreur lors du chargement des tweets');
         setIsLoading(false);
       }

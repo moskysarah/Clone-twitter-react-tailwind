@@ -13,8 +13,7 @@ export interface TweetProps {
   numberLike: number,
   numberComment: number,
   numberRetweet: number,
-  numberShare?: number,
-  tweet:string
+  numberShare?: number
 }
 
 const Tweet = ({ avatar, username, handle, time, content, image, numberLike, numberComment, numberRetweet, numberShare }: TweetProps) => {

@@ -1,7 +1,7 @@
 
 import BarTrending from "../components/BarTrending/barTrending";
 import Main from "../components/Tweet/mainPage";
-import Sidebar from "../components/Sidebar/sidebar";
+import Sidebar from "../components/sidebar/sidebar";
 import HomeTweets from "../components/Tweet/tweets";
 
 

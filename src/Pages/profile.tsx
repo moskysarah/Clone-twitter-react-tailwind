@@ -1,6 +1,6 @@
 import UserProfiles from "../components/Profiles/userProfiles"
 import BarTrending from "../components/BarTrending/barTrending"
-import Sidebar from "../components/Sidebar/sidebar"
+import Sidebar from "../components/sidebar/sidebar"
 
 
 function Profile() {
