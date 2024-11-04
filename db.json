@@ -1,4 +1,4 @@
-export const DB = [
+[
   {
     "userId": 1,
     "username": "Tim Cook",

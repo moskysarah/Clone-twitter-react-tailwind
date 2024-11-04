@@ -80,7 +80,9 @@ function Main() {
     const data = await response.json();
     setUploadedImageUrl(data.secure_url);
     return data.secure_url;
+
   };
+
 
   const onSubmit = async (data: TweetType) => {
     const uploadedImage = tweetImage ? await uploadImageToCloudinary() : "";
@@ -98,7 +100,7 @@ function Main() {
       image: uploadedImage,
     };
 
-    setTweets([newTweet, ...tweets]);
+    setTweets([newTweet,...tweets]);
     reset();
     setTweetContent("");
     setTweetImage(null);
@@ -110,6 +112,7 @@ function Main() {
       <div className="flex sm:justify-between sm:p-4 border-b border-grayColor">
         <p className="hidden md:block text-white">Home</p>
         <div className="flex md:hidden gap-32 items-center bg-black w-full p-4">
+
           <img src="/image_twitter/Profile-Photo.png" alt="photo de profil" />
           <Icon name="logo" />
         </div>
@@ -136,6 +139,7 @@ function Main() {
             <div className="h-10 flex justify-center items-center">
               <div className="flex gap-5 pl-16">
                 <label htmlFor="fileInput" style={{ cursor: "pointer" }}>
+               {uploadedImageUrl && <img src={uploadedImageUrl} alt="Uploaded" />}
                   <img src="/images twitter/imageIcon.png" alt="" />
                   <input
                     id="fileInput"
