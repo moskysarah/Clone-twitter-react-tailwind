@@ -30,7 +30,7 @@ const HomeTweets: React.FC = () => {
     <div>
       <h1>Accueil</h1>
       {tweets.map((tweet) => (
-        <Tweet key={tweet.id} tweet={tweet} />
+        <Tweet key={tweet} tweet={tweet} avatar={''} name={''} username={''} handle={''} time={''} content={''} numberLike={0} numberComment={0} numberRetweet={0} numberShare={0} image={''} tweetContent={0} />
       ))}
     </div>
   );

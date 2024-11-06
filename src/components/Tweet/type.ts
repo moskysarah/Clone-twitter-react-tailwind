@@ -1,6 +1,6 @@
 export interface TweetType {
-    tweetId: number
-    content: string
+    tweetId?: number
+    content?: string
     createdAt: string
     image?: string
     likes:number

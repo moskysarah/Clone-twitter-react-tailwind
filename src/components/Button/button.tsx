@@ -3,6 +3,9 @@ import { HTMLAttributes } from "react";
 interface Props extends HTMLAttributes<HTMLButtonElement> {
   size: "primary" | "secondary";
   color: "blue" | "white" | "black";
+  className?: 
+  string;
+  disabled?: boolean;
 }
 
 function Button({ children, size, color }: Props) {

@@ -22,7 +22,7 @@ function Main() {
   const { register, handleSubmit, reset } = useForm<TweetType>();
   const [tweetContent, setTweetContent] = useState("");
   const [tweetImage, setTweetImage] = useState<File | null>(null);
-  const [uploadedImageUrl, setUploadedImageUrl] = useState<string | null>(null);
+  const [, setUploadedImageUrl] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -34,6 +34,7 @@ function Main() {
           user.tweets.map(tweet => ({
             avatar: user.profilePicture,
             username: user.username,
+            handle: loggedUser?.username,
             name: user.name,
             content: tweet.content,
             time: tweet.createdAt,
@@ -42,6 +43,7 @@ function Main() {
             numberRetweet: tweet.retweets,
             numberShare: tweet.numberShare,
             image: tweet.image,
+            tweetContent: tweet.numberShare,
           }))
         );
 
@@ -89,6 +91,7 @@ function Main() {
       avatar: loggedUser?.profilePicture,
       username: loggedUser?.username,
       name: loggedUser?.name,
+      handle : loggedUser?.username,
       content: data.content,
       time: formatDate(new Date()),
       numberLike: 0,
@@ -96,6 +99,7 @@ function Main() {
       numberRetweet: 0,
       numberShare: 0,
       image: uploadedImage,
+      tweetContent : 0,
     };
 
     setTweets([newTweet, ...tweets]);
@@ -181,8 +185,7 @@ function Main() {
             numberLike={tweet.numberLike}
             numberComment={tweet.numberComment}
             numberRetweet={tweet.numberRetweet}
-            numberShare={tweet.numberShare}
-          />
+            numberShare={tweet.numberShare} handle={undefined} tweetContent={0}          />
         ))}
       </div>
     </div>
